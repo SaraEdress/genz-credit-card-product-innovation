@@ -1,0 +1,31 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Logs and test output
+*.log
+.pytest_cache/
+.coverage
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
